@@ -5,8 +5,8 @@
 
 cat > /run/dnsmasq.conf.d/conditional_dns.conf <<- "EOF"
 # Created by a UDM-Utilities run script
-server=/ad.knipal.com/10.55.10.100
-server=/_msdcs.ad.knipal.com/10.55.10.100
+server=/ad.knipal.com/10.55.10.10
+#server=/_msdcs.ad.knipal.com/10.55.10.10
 server=/home.local/192.168.1.1
 EOF
  
